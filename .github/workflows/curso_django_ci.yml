@@ -36,9 +36,9 @@ jobs:
           pipenv install
           pipenv sync -d
 
-      - name: Copying configurations .env
-        run: |
-          cp contrib/env-sample .env
+#      - name: Copying configurations .env
+#        run: |
+#          cp contrib/env-sample .env
 
       - name: Lint with flake8
         run: |
