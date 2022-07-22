@@ -44,9 +44,9 @@ jobs:
         run: |
           pipenv run flake8
 
-      - name: Testing code with pytest
-        run: |
-          pipenv run pytest curso-django --cov=curso-django
+#      - name: Testing code with pytest
+#        run: |
+#          pipenv run pytest curso-django --cov=curso-django
 
       - name: Posting Coverage
         env:
