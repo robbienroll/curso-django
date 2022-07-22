@@ -48,8 +48,8 @@ jobs:
 #        run: |
 #          pipenv run pytest curso-django --cov=curso-django
 
-      - name: Posting Coverage
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-        run: |
-          pipenv run codecov
+#      - name: Posting Coverage
+#        env:
+#          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+#        run: |
+#          pipenv run codecov
