@@ -3,8 +3,6 @@ Codigo desenvolvido para o Curso de Django da Comunidade DevPro [Site Python Pro
 
 Aplicação disponivel em https://djangorobmarini.herokuapp.com/
 
-![Build Status](https://github.com/robbienroll/curso-django/actions/workflows/curso_django_ci/badge.svg)
+![GA Workflow](https://github.com/robbienroll/curso-django/actions/workflows/curso_django_ci/badge.svg)
 [![codecov](https://codecov.io/gh/robbienroll/curso-django/branch/main/graph/badge.svg?token=25TVHFN4GB)](https://codecov.io/gh/robbienroll/curso-django)
-[![Renovate - Dependencies up to date][renovateapp-svg]][renovateapp-link]
-[renovateapp-link]: https://renovateapp.com
-[renovateapp-svg]: https://img.shields.io/badge/dependencies-up_to_date-brightgreen.svg
+
