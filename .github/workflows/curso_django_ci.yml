@@ -36,9 +36,9 @@ jobs:
           pipenv install
           pipenv sync -d
 
-#      - name: Copying configurations .env
-#        run: |
-#          cp contrib/env-sample .env
+      #      - name: Copying configurations .env
+      #        run: |
+      #          cp contrib/env-sample .env
 
       - name: Lint with flake8
         run: |
@@ -46,8 +46,7 @@ jobs:
 
       - name: Testing code with pytest
         run: |
-#          pipenv run pytest curso-django --cov=curso-django
-          pipenv run pytest curso-django --cov=curso-django
+          pipenv run pytest
 
 #      - name: Posting Coverage
 #        env:
