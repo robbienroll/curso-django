@@ -46,6 +46,7 @@ jobs:
 
       - name: Testing code with pytest
         run: |
+#          pipenv run pytest curso-django --cov=curso-django
           pipenv run pytest curso-django --cov=curso-django
 
 #      - name: Posting Coverage
