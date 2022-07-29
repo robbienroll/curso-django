@@ -13,7 +13,8 @@ from decouple import config
 from pathlib import Path
 from functools import partial
 import dj_database_url
-import os.path
+
+# import os.path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -74,7 +75,9 @@ WSGI_APPLICATION = 'pypro.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-default_db_url = 'sqlite:///' + os.path.join(BASE_DIR / 'db.sqlite3')
+# default_db_url = 'sqlite:///' + os.path.join(BASE_DIR / 'db.sqlite3')
+default_db_url = 'sqlite:///' + BASE_DIR / 'db.sqlite3'
+print(BASE_DIR)
 
 parse_database = partial(dj_database_url.parse, conn_max_age=600)
 
